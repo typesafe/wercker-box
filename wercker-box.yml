@@ -1,5 +1,5 @@
 name : windows-vs2013
-version : 0.0.1
+version : 0.0.2
 description: Experimental Windows box with VS 2013
 type : main
 platform : windows@2008
