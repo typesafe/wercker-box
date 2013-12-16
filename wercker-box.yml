@@ -29,6 +29,8 @@ packages:
   - DotNet4.5
   - Silverlight
   - NAnt
+  - VS2010.ShellIntegratedRedist
+  - VS2012.ShellIntegratedRedist
   - VS2013.ShellIntegratedRedist
   - DotNet4.0
   - typescript
