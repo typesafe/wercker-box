@@ -1,5 +1,6 @@
 name : windows-vs2013
 version : 0.0.2
+inherits: wercker-labs/windows@0.0.3
 description: Experimental Windows box with VS 2013
 type : main
 platform : windows@2008
@@ -8,47 +9,7 @@ keywords:
   - .net
   - c#
 packages:
-  - cygwin
-  - cygwin.nano
-  - cygwin.subversion
-  - cygwin.curl
-  - cygwin.rsync
-  - cygwin.ncurses
-  - cygwin.wget
-  - cygwin.tar
-  - cygwin.qawk
-  - cygwin.bzip2
-  - cygwin.subversion
-  - cygwin.vim
-  - AspNetMVC3Tools
-  - NuGet
-  - VisualStudioTestAgents2010
-  - Gallio
-  - Firefox
-  - Chrome
-  - DotNet4.5
-  - Silverlight
-  - NAnt
-  - VS2010.ShellIntegratedRedist
-  - VS2012.ShellIntegratedRedist
   - VS2013.ShellIntegratedRedist
-  - DotNet4.0
-  - typescript
-  - WindowsAzureLibsForNet
-  - Wix35
-  - nano
-  - aspnetmvc
-  - golang
-  - appharborcli.install
-  - specflow
-  - AWSTools.Powershell
-  - msbuild.communitytasks
-  - eazfuscator.net
-  - stylecop
-  - winrar
-  - javaruntime
-  - WindowsPhoneSDK@8.0
-  - AdobeAirSdk
 
 box-detect:
   priority : 100
